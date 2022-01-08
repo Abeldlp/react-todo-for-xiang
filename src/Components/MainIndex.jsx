@@ -9,7 +9,7 @@ const MainIndex = () => {
   const [todos, setTodos] = useState(['something todo', 'something else']);
 
   const addNewtodo = (todo) => {
-    setTodos([...todos, todo]);
+    setTodos([todo, ...todos]);
   };
 
   const clearTodos = () => {
