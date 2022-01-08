@@ -1,0 +1,17 @@
+.todo_body_done, .todo_body_undone {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid black;
+}
+.todo_body_done {
+  text-decoration: line-through;
+}
+
+
+input {
+  margin-right: 15px;
+}
+
+p {
+  text-align: left;
+}
